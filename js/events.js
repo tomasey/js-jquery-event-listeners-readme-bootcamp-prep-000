@@ -9,12 +9,14 @@ function frameIt () {
 
 function pressIt () {
   $('form input').on('keydown');
-  if (key === )
+    if (key.which === 71) {
+      alert("You have pressed the G key!")
+    }
   
 }
 
 $(document).ready(function(){
   getIt();
   frameIt();
-
+  pressIt();
 });
