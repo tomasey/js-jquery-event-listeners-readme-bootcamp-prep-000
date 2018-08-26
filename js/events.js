@@ -7,8 +7,9 @@ function frameIt () {
   $('#tasty').on('load').css('border', 'solid red');
 }
 
-
-
+function pressIt () {
+  
+}
 
 // $(document).ready(function(){
 
