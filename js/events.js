@@ -8,12 +8,11 @@ function frameIt () {
 }
 
 function pressIt () {
-  $('form input').on('keydown');
-    function G (key) {
+  $('form input').on('keydown', function G (key) {
       if (key.which === 71) {
       alert("You have pressed the G key!");
       } 
-    }
+                                })
 }
 
 function submitIt () {
