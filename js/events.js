@@ -3,7 +3,7 @@ function getIt () {
 }
 
 function frameIt () {
-  $().on('load')
+  $('img').addon('load')
 }
 
 
