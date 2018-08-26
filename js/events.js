@@ -8,7 +8,7 @@ function frameIt () {
 }
 
 function pressIt () {
-  $('form').on('keydown')
+  $('form input').on('keydown')
   
 }
 
