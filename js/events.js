@@ -3,7 +3,8 @@ function getIt () {
 }
 
 function frameIt () {
-  $('img').addon('load')
+  $('img').addClass("tasty");
+  $('#tasty').on('load', );
 }
 
 
