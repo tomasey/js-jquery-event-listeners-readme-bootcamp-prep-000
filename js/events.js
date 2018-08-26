@@ -11,8 +11,8 @@ function pressIt () {
   
 }
 
-// $(document).ready(function(){
+$(document).ready(function(){
 
-// // call functions here
+// call functions here
 
-// });
+});
